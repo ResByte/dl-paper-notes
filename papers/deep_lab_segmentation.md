@@ -36,4 +36,4 @@ Weaker Supervision based methods
 - [[58](https://arxiv.org/abs/1502.02734), [69](https://arxiv.org/abs/1411.6228), [70](https://arxiv.org/abs/1506.03648), [71](https://arxiv.org/abs/1506.04924)] relaxes assumption of availability of pixel-level semantic annotations for training whole set.
 
 ## Model Description
-![Model Description](imgs/deeplab_img1.png)
+![Model Description](../imgs/deeplab_img1.png)
