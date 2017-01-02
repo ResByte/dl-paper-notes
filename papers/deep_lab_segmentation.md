@@ -18,25 +18,22 @@ Finally, some advantages of DeepLab
 
 ## Related Works
 DCNN based segmentation have following major categories
-- cascade of bottom-up segmentation with DCNN based region segmentation[7], [49], [50]
-- Coupling a convolutionally computed DCNN for image labelling and an independent segmentation. [39, 21, 51]
-- segmentation free approach by computing dense category-level pixel labels.[14, 52]
+- cascade of bottom-up segmentation with DCNN based region segmentation[ [7](https://arxiv.org/abs/1311.2524), [49](https://arxiv.org/abs/1407.1808), [50](https://arxiv.org/abs/1412.0774)]
+- Coupling a convolutionally computed DCNN for image labelling and an independent segmentation. [[39](http://yann.lecun.com/exdb/publis/pdf/farabet-pami-13.pdf), [21](https://arxiv.org/abs/1411.5752), [51](https://arxiv.org/abs/1412.1283)]
+- segmentation free approach by computing dense category-level pixel labels.[[14](https://arxiv.org/abs/1605.06211), [52](https://arxiv.org/abs/1411.4734)]
 
 Works using CRF with DCNN
-- [22]
-- [53]
-- [39]
-- [57]
+- [Efficient inference in fully connected crfs with gaussian edge potentials](https://papers.nips.cc/paper/4296-efficient-inference-in-fully-connected-crfs-with-gaussian-edge-potentials.pdf)
+- [Combining the best of graphical models and convnets for semantic segmentation](https://arxiv.org/abs/1412.4313)
+- [Learning hierarchical features for scene labeling](http://yann.lecun.com/exdb/publis/pdf/farabet-pami-13.pdf)
+- [Material recognition in the wild with the materials in context database](https://arxiv.org/abs/1412.0623)
 
 ## Advances in Segmentation
 End-to-End training for structured prediction
-- [40, 59, 62, 64, 65] proposed methods for joint learning of DCNN and CRFs.
+- [[40](https://arxiv.org/abs/1504.01013), [59](https://arxiv.org/abs/1502.03240), [62](https://arxiv.org/abs/1509.02634), [64](https://arxiv.org/abs/1407.2538), [65](https://arxiv.org/abs/1503.02351)] proposed methods for joint learning of DCNN and CRFs.
 
 Weaker Supervision based methods
-- [58, 69, 70, 71] relaxes assumption of availability of pixel-level semantic annotations for training whole set.
+- [[58](https://arxiv.org/abs/1502.02734), [69](https://arxiv.org/abs/1411.6228), [70](https://arxiv.org/abs/1506.03648), [71](https://arxiv.org/abs/1506.04924)] relaxes assumption of availability of pixel-level semantic annotations for training whole set.
 
 ## Model Description
-![Model Description](imgs/deeplab_img1.tiff)
-
-## Results
-![Results](imgs/deeplab_img2.tiff)
+![Model Description](imgs/deeplab_img1.png)
