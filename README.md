@@ -10,9 +10,10 @@ Notes of deep learning papers
 - "[StackGAN](https://arxiv.org/abs/1612.03242)", Zhang et al.
 
 #### VAEs
-- "[Tutorial on VAE](https://arxiv.org/abs/1606.05908)", Carl et al. 
+- "[Tutorial on VAE](https://arxiv.org/abs/1606.05908)", Carl et al.
 
 
 ### Done
 - [Batch Norm 2015](papers/batch_norm_sergey_2015.md)
 - [Deep Lab 2016](papers/deep_lab_segmentation_2016.md)
+- [Understanding Deep learning Requires Rethinking Generalization](papers/zhang_iclr_2017.md)
