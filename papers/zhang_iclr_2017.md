@@ -1,6 +1,6 @@
 # ICLR 17 [best paper]: Understanding Deep Learning Requires Rethinking Generalization
 
-
+[Paper](https://arxiv.org/abs/1611.03530)
 ## Introductions
 - Generalization error : Training Error - Test Error.
 - Large DNN has small generalization error.
@@ -39,8 +39,8 @@ This paper talks about several inference under following themes
 - Absence of regularizer may not change generalization error.
 ----------
 ## Finite Sample Expressivity
-- large neural networks can express any size of training sample, as long as number of parameters are more than $$2n+d$$ .
-https://d2mxuefqeaa7sj.cloudfront.net/s_437974233F085ACBE6A3FFA0A8A53D3E4C468B89501499B604108FD602B7950C_1487994356732_file.png
+- large neural networks can express any size of training sample, as long as number of parameters are more than $2n+d$ .
+![theorem1](imgs/zhang_iclr_1.png)
 
 - they show that with 2-depth network of sufficient parameter size can learn any training sample.
 ----------
@@ -49,4 +49,4 @@ https://d2mxuefqeaa7sj.cloudfront.net/s_437974233F085ACBE6A3FFA0A8A53D3E4C468B89
 - In linear models, SGD pays the role of implicit regularizer and always approach to minima within a norm.
 - In Deep NN, model trained by SGD still need to be analyzed for their properties.
 ----------
-https://d2mxuefqeaa7sj.cloudfront.net/s_437974233F085ACBE6A3FFA0A8A53D3E4C468B89501499B604108FD602B7950C_1487994214973_file.png
+![theorem2](imgs/zhang_iclr_2.png)
