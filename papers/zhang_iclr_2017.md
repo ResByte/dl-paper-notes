@@ -40,7 +40,7 @@ This paper talks about several inference under following themes
 ----------
 ## Finite Sample Expressivity
 - large neural networks can express any size of training sample, as long as number of parameters are more than $2n+d$ .
-![theorem1](imgs/zhang_iclr_1.png)
+![theorem1](../imgs/zhang_iclr_1.png)
 
 - they show that with 2-depth network of sufficient parameter size can learn any training sample.
 ----------
@@ -49,4 +49,4 @@ This paper talks about several inference under following themes
 - In linear models, SGD pays the role of implicit regularizer and always approach to minima within a norm.
 - In Deep NN, model trained by SGD still need to be analyzed for their properties.
 ----------
-![theorem2](imgs/zhang_iclr_2.png)
+![theorem2](../imgs/zhang_iclr_2.png)
