@@ -6,3 +6,4 @@ Notes of deep learning papers
 - [Deep Lab 2016](papers/deep_lab_segmentation_2016.md)
 - [Understanding Deep learning Requires Rethinking Generalization](papers/zhang_iclr_2017.md)
 - "[Tutorial on VAE](https://paper.dropbox.com/doc/Variational-Auto-Encoder-VAE-TwLowAvxxGSKVrn9TeSw6)", Carl et al. 2016
+- [Understanding Deep Learning Requires Rethinking Generalization](https://paper.dropbox.com/doc/ICLR-17-best-paper-Understanding-Deep-Learning-Requires-Rethinking-Generalization-i1PFHBrcLLAgebqnkaXcS) Zhang et al. 2017.
